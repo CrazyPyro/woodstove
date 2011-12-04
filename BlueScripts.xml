@@ -1,0 +1,51 @@
+<doc>
+	<script>
+		<name>Read Thermocouple</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>&amp;</message>
+		</action>
+	</script>
+	<script>
+		<name>Read Ambient</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>*</message>
+		</action>
+	</script>
+ 	<script>
+		<name>Fan increase</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>+</message>
+		</action>
+	</script>
+ 	<script>
+		<name>Fan decrease</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>-</message>
+		</action>
+	</script> 
+ 	<script>
+		<name>Toggle auto fan</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>!</message>
+		</action>
+	</script>
+	<script>
+		<name>Echo test</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>Hello, world!</message>
+		</action>
+	</script>
+	<script>
+		<name>Watchdog test</name>
+		<action>
+			<address>00:12:6F:20:DB:98</address>
+			<message>#</message>
+		</action>
+	</script>
+</doc>
